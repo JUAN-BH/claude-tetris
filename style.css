@@ -15,6 +15,32 @@ body {
   user-select: none;
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.title-block {
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 8px;
+  color: #7aa2f7;
+}
+
+.subtitle {
+  margin-top: 4px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #555570;
+}
+
 .wrapper {
   position: relative;
 }
